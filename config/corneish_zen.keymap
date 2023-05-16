@@ -82,7 +82,7 @@
                         bindings = <
    &trans   &trans    &trans  &trans    &kp AMPS   &kp KP_MULTIPLY   &trans   &kp N7 &kp N8 &kp N9 &kp TILDE  &trans
    &trans   &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp CARET         &kp CAPS &kp N4 &kp N5 &kp N6 &kp GRAVE  &trans
-   &trans   &trans    &trans &trans     &kp PRCNT  &kp PIPE          &trans   &kp N1 &kp N2 &kp N3 &kp PIPE   &trans
+   &trans   &trans    &trans &trans     &kp PRCNT  &kp PIPE          &kp_PSCRN   &kp N1 &kp N2 &kp N3 &kp PIPE   &trans
 
                            &trans &lt 3 SPACE   &kp SPACE             &kp N0   &lt 3 DOT &trans
                         >;
