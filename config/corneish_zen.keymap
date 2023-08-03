@@ -60,8 +60,8 @@
                         label = "^ ARST";
                         bindings = <
    &trans   &kp Q           &kp W &kp F &kp P          &kp B           &kp J &kp L           &kp U     &kp Y   &kp SEMI           &trans
-   &trans   &bhm LSHFT A &kp R &kp S &bhm LGUI T &kp G           &kp M &bhm RGUI N  &kp E     &kp I   &bhm RSHFT O        &trans
-   &trans   &bhm LCTRL Z &kp X &kp C &kp D          &kp V           &kp K &kp H           &kp COMMA &kp DOT &bhm RCTRL FSLH     &trans
+   &trans   &lh_pht LSHFT A &kp R &kp S &lh_pht LGUI T &kp G           &kp M &rh_pht RGUI N  &kp E     &kp I   &rh_pht RSHFT O        &trans
+   &trans   &lh_pht LCTRL Z &kp X &kp C &kp D          &kp V           &kp K &kp H           &kp COMMA &kp DOT &rh_pht RCTRL FSLH     &trans
 
              &lt 2 EQUAL  &lt 1 SPACE &mt LALT SPACE           &mt RALT RET  &lt 1 BSPC  &lt 2 SPACE
                         >;
