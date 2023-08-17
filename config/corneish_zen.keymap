@@ -130,7 +130,7 @@
    &trans     &kp LT   &kp GT     &kp LPAR   &kp RPAR   &kp PG_UP        &kp DQT     &kp LEFT      &kp UP    &kp RIGHT     &kp SQT       &trans
    &trans     &kp LBRC &kp RBRC   &kp LBKT   &kp RBKT   &kp PG_DN        &kp UNDER   &kp HOME      &kp DOWN  &kp END       &trans       &trans
 
-                              &lt 3  TAB     &kp ESC       &kp SPACE     &kp DEL     &kp DEL    &lt 3 EQUAL
+                              &lt 3  TAB     &kp ESC    &kp LALT        &kp LALT     &kp DEL    &lt 3 EQUAL
                         >;
                 };
 
