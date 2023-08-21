@@ -126,7 +126,7 @@
                 lower_layer {
                         label = "$ SYM";
                         bindings = <
-             &kp TAB  &kp UNDER  &kp EQUAL  &kp MINUS  &kp MINUS        &kp K_MUTE  &kp K_VOL_DN  &kp K_PP  &kp K_VOL_UP  &kp BSLH
+             &kp TAB  &kp UNDER  &kp EQUAL  &kp MINUS  &kp PLUS         &kp K_MUTE  &kp K_VOL_DN  &kp K_PP  &kp K_VOL_UP  &kp BSLH
              &kp LT   &kp GT     &kp LPAR   &kp RPAR   &kp PG_UP        &kp DQT     &kp LEFT      &kp UP    &kp RIGHT     &kp SQT
              &kp LBRC &kp RBRC   &kp LBKT   &kp RBKT   &kp PG_DN        &kp TILDE   &kp HOME      &kp DOWN  &kp END       &kp GRAVE
 
