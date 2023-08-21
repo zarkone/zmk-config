@@ -39,7 +39,7 @@
                         label = "> CLDH";
                         bindings = <
             &kp Q       &kp W      &kp F       &kp P        &kp B        &kp J &kp L        &kp U       &kp Y      &kp SEMI
-            &hm LGUI A  &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G        &kp M &hm RSHIFT N &hm RCTRL E &hm RALT I &hm RGUI O
+            &hm LGUI A  &hm LALT R &hm LCTRL S &hm LSHFT T &kp G        &kp M &hm RSHFT N &hm RCTRL E &hm RALT I &hm RGUI O
             &kp Z       &kp X      &kp C       &kp D        &kp V        &kp K &kp H        &kp COMMA   &kp DOT    &kp FSLH
 
                                &lt 2 EQUAL  &lt 1 SPACE &kp SPACE        &kp RET  &lt 1 BSPC  &lt 2 SPACE
@@ -69,7 +69,7 @@
                 };
 
                 func_layer {
-                        label = "& Fn";
+                        label = "} Fn";
                         bindings = <
            &bt BT_CLR    &trans        &trans        &trans        &trans     &trans   &kp F7   &kp F8  &kp F9  &kp F10
            &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans     &trans   &kp F4   &kp F5  &kp F6  &kp F11
