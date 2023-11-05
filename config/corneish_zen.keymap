@@ -56,10 +56,16 @@
             key-positions = <21 22>;
             bindings = <&kp LSHFT>;
         };
-        combo_rshft {
+
+        combo_tab {
             timeout-ms = <50>;
-            key-positions = <27 28>;
-            bindings = <&kp RSHFT>;
+            key-positions = <0 1>;
+            bindings = <&kp TAB>;
+        };
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp ESC>;
         };
 
     };
