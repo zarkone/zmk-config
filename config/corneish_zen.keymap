@@ -30,36 +30,24 @@
 
         combo_lgui {
             timeout-ms = <50>;
-            key-positions = <3 13>;
+            key-positions = <4 14>;
             bindings = <&kp LGUI>;
         };
         combo_rgui {
             timeout-ms = <50>;
-            key-positions = <6 16>;
+            key-positions = <5 15>;
             bindings = <&kp RGUI>;
-        };
-
-        combo_lctrl {
-            timeout-ms = <50>;
-            key-positions = <2 12>;
-            bindings = <&kp LCTRL>;
-        };
-
-        combo_rctrl {
-            timeout-ms = <50>;
-            key-positions = <7 17>;
-            bindings = <&kp RCTRL>;
         };
 
         combo_lshft {
             timeout-ms = <50>;
-            key-positions = <1 11>;
+            key-positions = <20 21>;
             bindings = <&kp LSHFT>;
         };
 
         combo_rshft {
             timeout-ms = <50>;
-            key-positions = <8 18>;
+            key-positions = <28 29>;
             bindings = <&kp RSHFT>;
         };
 
@@ -73,6 +61,18 @@
             key-positions = <9 19>;
             bindings = <&kp ESC>;
         };
+        combo_backspace {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            layers = <0>;
+            bindings = <&kp BSPC>;
+        };
+        combo_del {
+            timeout-ms = <50>
+            layers = <1>;
+            key-positions = <7 8>;
+            bindings = <&kp BSPC>;
+        };
 
     };
 
@@ -82,9 +82,9 @@
                 default_layer {
                         label = "> CLDH";
                         bindings = <
-            &kp Q  &kp W &kp F &kp P &kp B                       &kp J &kp L &kp U     &kp Y   &kp SEMI
-            &kp A  &kp R &kp S &kp T &kp G                       &kp M &kp N &kp E     &kp I   &kp O
-            &kp Z  &kp X &kp C &kp D &kp V                      &kp K &kp H &kp COMMA &kp DOT &kp FSLH
+            &kp Q       &kp W &kp F &kp P &kp B               &kp J &kp L &kp U    &kp Y       &kp SEMI
+            &kp A       &kp R &kp S &kp T &kp G               &kp M &kp N &kp E    &kp I       &kp O
+            &mt LCTRL Z &kp X &kp C &kp D &kp V               &kp K &kp H &kp COMMA &kp DOT &mt RCTRL FSLH
 
                &lt 2 EQUAL  &lt 1 SPACE &mt LALT SPACE        &mt RALT RET  &lt 1 BSPC  &lt 2 SPACE
                         >;
