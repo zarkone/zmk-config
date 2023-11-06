@@ -82,12 +82,14 @@
             label = "LEFT_CTRL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
+            tapping-term-ms = <200>;                        // <---[[produces tap if held longer than tapping-term-ms]]
             bindings = <&kp>, <&kp>;
         };
     };
 
-     keymap {
-               compatible = "zmk,keymap";
+
+        keymap {
+                compatible = "zmk,keymap";
 
                 default_layer {
                         label = "> CLDH";
