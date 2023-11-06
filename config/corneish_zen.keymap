@@ -76,15 +76,25 @@
 
     };
 
-        keymap {
-                compatible = "zmk,keymap";
+    behaviors {
+        c_ht: ctrl_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LEFT_CTRL_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+     keymap {
+               compatible = "zmk,keymap";
 
                 default_layer {
                         label = "> CLDH";
                         bindings = <
-            &kp Q       &kp W &kp F &kp P &kp B               &kp J &kp L &kp U    &kp Y       &kp SEMI
-            &kp A       &kp R &kp S &kp T &kp G               &kp M &kp N &kp E    &kp I       &kp O
-            &mt LCTRL Z &kp X &kp C &kp D &kp V               &kp K &kp H &kp COMMA &kp DOT &mt RCTRL FSLH
+            &kp Q         &kp W &kp F &kp P &kp B               &kp J &kp L &kp U    &kp Y          &kp SEMI
+            &kp A         &kp R &kp S &kp T &kp G               &kp M &kp N &kp E    &kp I          &kp O
+            &c_ht LCTRL Z &kp X &kp C &kp D &kp V               &kp K &kp H &kp COMMA &kp DOT &c_ht RCTRL FSLH
 
                &lt 2 EQUAL  &lt 1 SPACE &mt LALT SPACE        &mt RALT RET  &lt 1 BSPC  &lt 2 SPACE
                         >;
