@@ -28,26 +28,15 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <4 14>;
-            bindings = <&kp LGUI>;
-        };
-        combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <5 15>;
-            bindings = <&kp RGUI>;
-        };
-
         combo_lshft {
             timeout-ms = <50>;
-            key-positions = <20 21>;
+            key-positions = <20 11>;
             bindings = <&kp LSHFT>;
         };
 
         combo_rshft {
             timeout-ms = <50>;
-            key-positions = <28 29>;
+            key-positions = <18 29>;
             bindings = <&kp RSHFT>;
         };
 
@@ -94,9 +83,9 @@
                 default_layer {
                         label = "> CLDH";
                         bindings = <
-            &kp Q         &kp W &kp F &kp P &kp B               &kp J &kp L &kp U    &kp Y          &kp SEMI
-            &kp A         &kp R &kp S &kp T &kp G               &kp M &kp N &kp E    &kp I          &kp O
-            &c_ht LCTRL Z &kp X &kp C &kp D &kp V               &kp K &kp H &kp COMMA &kp DOT &c_ht RCTRL FSLH
+            &kp Q         &kp W &kp F &kp P &kp B               &kp J        &kp L &kp U    &kp Y          &kp SEMI
+            &kp A         &kp R &kp S &kp T &kp &c_ht LGUI G    &c_ht RGUI M &kp N &kp E    &kp I          &kp O
+            &c_ht LCTRL Z &kp X &kp C &kp D &kp V               &kp K        &kp H &kp COMMA &kp DOT &c_ht RCTRL FSLH
 
                &lt 2 EQUAL  &lt 1 SPACE &mt LALT SPACE        &mt RALT RET  &lt 1 BSPC  &lt 2 SPACE
                         >;
