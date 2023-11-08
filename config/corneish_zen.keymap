@@ -30,25 +30,25 @@
 
         combo_lshft {
             timeout-ms = <50>;
-            key-positions = <10 20>;
+            key-positions = <20 21>;
             bindings = <&kp LSHFT>;
         };
 
         combo_rshft {
             timeout-ms = <50>;
-            key-positions = <19 29>;
+            key-positions = <28 29>;
             bindings = <&kp RSHFT>;
         };
 
         combo_lctrl_lshft {
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <10 20>;
             bindings = <&kp LC(LSHFT)>;
         };
 
         combo_rctrl_rshft {
             timeout-ms = <50>;
-            key-positions = <28 29>;
+            key-positions = <19 29>;
             bindings = <&kp RC(RSHFT)>;
         };
 
