@@ -40,17 +40,30 @@
             bindings = <&kp RSHFT>;
         };
 
+        combo_lctrl_lshft {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp LC(LSHFT)>;
+        };
+
+        combo_rctrl_rshft {
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp RC(RSHFT)>;
+        };
+
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <0 10>;
+            key-positions = <0 1>;
             bindings = <&kp TAB>;
         };
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <9 19>;
+            key-positions = <8 9>;
             bindings = <&kp ESC>;
         };
-        combo_backspace {
+
+        combo_ctrl_backspace {
             timeout-ms = <50>;
             key-positions = <7 8>;
             layers = <0>;
