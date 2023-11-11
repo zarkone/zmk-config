@@ -69,6 +69,14 @@
             layers = <0>;
             bindings = <&kp LC(BSPC)>;
         };
+
+        combo_caps_word {
+            timeout-ms = <50>;
+            key-positions = <5 6>;
+            layers = <0>;
+            bindings = <&caps_word>;
+        };
+
     };
 
     behaviors {
