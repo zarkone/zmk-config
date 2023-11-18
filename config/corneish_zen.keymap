@@ -28,6 +28,31 @@
     combos {
         compatible = "zmk,combos";
 
+        combo_lshft {
+            timeout-ms = <50>;
+            layers = <0>;
+            key-positions = <20 21>;
+            bindings = <&kp LSHFT>;
+        };
+
+        combo_rshft {
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp RSHFT>;
+        };
+
+        combo_lctrl_lshft {
+            timeout-ms = <50>;
+            key-positions = <10 20>;
+            bindings = <&kp LC(LSHFT)>;
+        };
+
+        combo_rctrl_rshft {
+            timeout-ms = <50>;
+            key-positions = <19 29>;
+            bindings = <&kp RC(RSHFT)>;
+        };
+
         combo_tab {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -71,9 +96,9 @@
                 default_layer {
                         label = "> CLDH";
                         bindings = <
-            &kp Q   &kp W &kp F &kp P &kp B                &kp J &kp L &kp U     &kp Y   &kp SEMI
-    &c_ht LCTRL A  &c_ht LSHFT R &kp S &c_ht LGUI T &kp G  &kp M &c_ht RGUI N    &kp E   &c_ht RSHFT I   &c_ht RCTRL O
-            &kp Z   &kp X &kp C &kp D &kp V                &kp K &kp H &kp COMMA &kp DOT &kp FSLH
+            &kp Q         &kp W &kp F &kp P &kp B               &kp J  &kp L &kp U      &kp Y   &kp SEMI
+            &kp A         &kp R &kp S &kp T &c_ht LGUI G  &c_ht RGUI M &kp N &kp E      &kp I   &kp O
+            &c_ht LCTRL Z &kp X &kp C &kp D &kp V               &kp K   &kp H &kp COMMA &kp DOT &c_ht RCTRL FSLH
 
                &lt 2 EQUAL  &lt 1 SPACE &mt LALT SPACE        &mt RALT RET  &lt 1 BSPC  &lt 2 SPACE
                         >;
