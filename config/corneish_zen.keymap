@@ -111,7 +111,7 @@
              &kp LT   &kp GT    &kp LPAR   &kp RPAR   &kp PG_UP        &kp DQT     &kp LEFT      &kp UP    &kp RIGHT     &kp SQT
              &kp LBRC &kp RBRC  &kp LBKT   &kp RBKT   &kp PG_DN        &kp TILDE   &kp HOME      &kp DOWN  &kp END       &kp BSLH
 
-                              &lt 3  TAB     &kp ESC    &kp LALT        &kp RALT     &kp DEL    &lt 3 EQUAL
+                              &lt 3  TAB     &kp ESC    &kp LALT        &kp LALT     &kp DEL    &lt 3 EQUAL
                         >;
                 };
 
