@@ -66,14 +66,36 @@
 
         combo_ctrl_backspace {
             timeout-ms = <50>;
-            key-positions = <7 8>;
+            key-positions = <6 8>;
             bindings = <&kp LC(BSPC)>;
+        };
+        combo_backspace {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&kp BSPC>;
+        };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp DEL>;
+        };
+
+        combo_capslock {
+            timeout-ms = <50>;
+            key-positions = <5 15>;
+            bindings = <&kp CAPS>;
         };
 
         combo_caps_word {
             timeout-ms = <50>;
             key-positions = <5 6>;
             bindings = <&caps_word>;
+        };
+
+        combo_prscr {
+            timeout-ms = <50>;
+            key-positions = <4 14>;
+            bindings = <&kp PSCRN>;
         };
 
     };
